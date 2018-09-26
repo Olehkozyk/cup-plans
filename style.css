@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Miso';
+    src: url('fonts/miso-bold-webfont.woff2') format('woff2'),
+         url('fonts/miso-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Miso';
+    src: url('fonts/miso-regular-webfont.woff2') format('woff2'),
+         url('fonts/miso-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+ html {
+ height: 100%;
+}
+html,
+body {
+ min-height: 100%;
+}
+body{
+ 	margin: 0;
+ 	background-color: #FDDE7E;
+ 	font-family: 'Miso', sans-serif;
+}
+h1{
+	font-weight: bold;
+	font-size: 70px;
+	color: green;
+}
+h3{
+	font-size: 56px;
+	margin: 10px; 
+}
+p{
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+.cup_silver{
+	width: 135px;
+	height: 77px;
+	background-image: url(images/cup_silver.png);
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.cup_bronze{
+	width: 135px;
+	height: 77px;
+	background-image: url(images/cup_bronze.png);
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.cup_gold{
+	width: 135px;
+	height: 77px;
+	background-image: url(images/cup_gold.png);
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.cup_silver img{
+	margin-right: 15px
+}
+.ba-cup-group{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 30px;
+	align-items: center;
+}
+.ba-bronze{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+	padding: 30px 40px;
+}
+.ba-gold{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+	padding: 40px;
+	margin: 10px;
+}
+
+
+.ba-silver{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+	padding: 30px 40px;
+
+}
+.ba-silver img{
+	margin-bottom: 10px;
+	margin-right: 15px;
+}
+.ba-bronze img{
+	margin-bottom: 10px;
+	margin-right: 15px;
+}
+.ba-gold img{
+	margin-bottom: 10px;
+	margin-right: 15px;
+}
